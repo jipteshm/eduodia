@@ -1,6 +1,6 @@
 package com.iodia.eduodia.model;
 
-public class Post
+public class Account extends EduEntity
 {
 
 }
