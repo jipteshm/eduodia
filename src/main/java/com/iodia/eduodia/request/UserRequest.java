@@ -1,6 +1,6 @@
 package com.iodia.eduodia.request;
 
-public class UserService
+public class UserRequest
 {
 
 }
