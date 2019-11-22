@@ -41,9 +41,69 @@ public class EduEntity implements Serializable
     private Date updatedAt;
 
     @CreatedBy
-    private long createdBy;
+    private User createdBy;
 
     @LastModifiedBy
-    private long updatedBy;
+    private User updatedBy;
+
+    public long getId()
+    {
+        return id;
+    }
+
+    public void setId(long id)
+    {
+        this.id = id;
+    }
+
+    public boolean isArchived()
+    {
+        return archived;
+    }
+
+    public void setArchived(boolean archived)
+    {
+        this.archived = archived;
+    }
+
+    public Date getCreatedAt()
+    {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt)
+    {
+        this.createdAt = createdAt;
+    }
+
+    public Date getUpdatedAt()
+    {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Date updatedAt)
+    {
+        this.updatedAt = updatedAt;
+    }
+
+    public User getCreatedBy()
+    {
+        return createdBy;
+    }
+
+    public void setCreatedBy(User createdBy)
+    {
+        this.createdBy = createdBy;
+    }
+
+    public User getUpdatedBy()
+    {
+        return updatedBy;
+    }
+
+    public void setUpdatedBy(User updatedBy)
+    {
+        this.updatedBy = updatedBy;
+    }
 
 }

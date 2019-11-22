@@ -1,6 +1,12 @@
 package com.iodia.eduodia.repository;
 
-public class UserRepository
+import java.io.Serializable;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.iodia.eduodia.model.User;
+
+public interface UserRepository extends PagingAndSortingRepository<User, Serializable>
 {
 
 }
