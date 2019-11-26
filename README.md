@@ -1,1 +1,1 @@
-# eduodia
+# Eduodia.com
